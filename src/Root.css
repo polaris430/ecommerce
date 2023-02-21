@@ -202,11 +202,8 @@
   border: 1px solid #cacaca;
 }
 
-
-@media(max-height: 700px){
-  .signininput{
+@media (max-height: 700px) {
+  .signininput {
     height: 30vh;
   }
 }
-
-/*******************
