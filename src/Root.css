@@ -18,7 +18,6 @@
 .mainscreenbtns,
 .mainscreenheading {
   flex: auto;
-  border: 1px solid red;
 }
 
 .mainscreenimage img {
