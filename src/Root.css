@@ -179,6 +179,8 @@
 .line2 {
   flex: auto;
   border-bottom: 1px solid #cacaca;
+  margin-right: 1em;
+  margin-left: 1em;
 }
 
 .or {
