@@ -15,7 +15,6 @@ export default function Root() {
           placeat quasi molestiae id, repellendus nemo voluptas amet!
         </p>
       </div>
-
       <div className="mainscreenbtns">
         <Link to="/signin" className="btn btn1">
           Log In

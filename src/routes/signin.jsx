@@ -22,7 +22,7 @@ export default function Signin() {
       <div className="signininput">
         <input className="username" placeholder="Username"></input>
         <input className="password" placeholder="Password"></input>
-        <Link to="/signin" className="btn btn1">
+        <Link to="/home" className="btn btn1">
           Log In
         </Link>
       </div>

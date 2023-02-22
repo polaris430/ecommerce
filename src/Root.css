@@ -58,7 +58,7 @@
   border: none;
 }
 
-/****************sign in page *********************/
+/**************** sign in page *********************/
 .signincontainer {
   display: flex;
   flex-direction: column;
@@ -208,4 +208,131 @@
   .signininput {
     height: 30vh;
   }
+}
+
+/************** home styling ****************/
+
+.homecontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcomerow {
+  display: flex;
+  text-align: left;
+  height: 10vh;
+  align-items: center;
+}
+
+.picture,
+.heading {
+  flex: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.picture img {
+  height: 40px;
+  width: 40px;
+  float: right;
+}
+
+.bold {
+  font-weight: 1000;
+}
+
+.homehero {
+  display: flex;
+  padding: 0.5em;
+  gap: 0.5em;
+}
+
+.hero-left,
+.hero-right {
+  flex: 50%;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1em;
+}
+
+.hero-left button {
+  background-color: #7af97a;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+}
+
+.hero-right img {
+  object-fit: cover;
+  max-width: 100%;
+  border-radius: 30px;
+  height: auto;
+  vertical-align: middle;
+  float: right;
+}
+
+.salesrow {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.viewall {
+  color: #0da54b;
+}
+
+.card {
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+}
+
+.card img {
+  flex: 50%;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.ctarow {
+  display: flex;
+  padding: 1em;
+}
+
+.ctaleft,
+.ctaright {
+  flex: 50%;
+}
+.ctaleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ctaleft button {
+  background-color: #7af97a;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+}
+
+.ctaright img {
+  object-fit: cover;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
 }
